@@ -1,11 +1,4 @@
-La creación de la parte del backend ha sido realizada mediante spring boot en la versión 17 de java, por tanto para poder desplegar la aplicación es necesario seguir estos pasos
-
-1. Instalación del JDK 17 de Nellsoft.
-2. Instalación del NetBeans 17.
-3. En NetBeans, ir a la pestaña Tools/Plugins. Se abrirá una ventana, dirigirse a la pestaña Downloaded/Add Plugins.
-4. Buscar y seleccionar el nb-springboot-plugin.
-5. Presionar el botón "Install" en la esquina inferior izquierda, seguir los pasos y reiniciar el IDE.
-Cuando abras de nuevo NetBeans, podrás ver que en nuevo proyecto/Maven/new spring app.
+La creación de la parte del backend ha sido realizada mediante spring boot en la versión 17 de java y el IDE apache netbeans 18
 
 El programa utiliza el puerto 8989, por lo que si quieres probar a hacer llamadas en local tendás que utilizar ese puerto
 A la hora de abrir el proyecto, es posible que salga como [unloadable]  o no cargue correctamente, para solucionar este problema , botón derecho sobre el proyecto, clean and build.
