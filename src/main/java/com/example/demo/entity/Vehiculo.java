@@ -26,8 +26,8 @@ public class Vehiculo {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @NotBlank(message = "Escribe bien la matricula gelipollas")
-    @Length(min = 7, max = 7, message = "La matricula con 7 letras imbécil")
+    @NotBlank(message = "La matrícula no pueded estar vacía")
+    @Length(min = 7, max = 7, message = "La matricula debe tener mínimo 7 letras")
     private  String matricula;
     private String marca;
     private String modelo;
