@@ -8,6 +8,7 @@ La creación de la parte del backend ha sido realizada mediante spring boot en l
 Cuando abras de nuevo NetBeans, podrás ver que en nuevo proyecto/Maven/new spring app.
 
 El programa utiliza el puerto 8989, por lo que si quieres probar a hacer llamadas en local tendás que utilizar ese puerto
+A la hora de abrir el proyecto, es posible que salga como [unloadable]  o no cargue correctamente, para solucionar este problema , botón derecho sobre el proyecto, clean and build.
 
 La función principal de la aplicacion del backend es devolver la información extraída  de la API de https://openchargemap.org/site, filtrar y ordenar toda esa información para sacar solo los datos que nos interesan y devolver la información dependiendo de los parámtetros de latitud y longitud tanto de origen como de destino mediante una solicitud http que envía el front para comunicarse.
 Como segunda funcionalidad que hemos implementado ha sido desarrollar nuestra propia APIrest de forma que, con ella se puedan realizar las acciones CRUD,implementando una base de datos, de forma que, si en algún momento decidiésemos hacer un login funcional, nos costara mucho menos trabajo crearlo todo. 
